@@ -1,0 +1,33 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="AnimationFade"> 
+		<!-- PopupWindow左右弹出的效果--> 
+		<item name="android:windowEnterAnimation">@anim/in_lefttoright</item> 
+		<item name="android:windowExitAnimation">@anim/out_righttoleft</item> 
+	</style> 
+    <style name="radioButton">
+    	<item name="android:layout_width">100dp</item>//每一个的宽度
+    	<item name="android:layout_height">fill_parent</item>//高度
+    	<item name="android:layout_weight">1.0</item>//比重
+    	<item name="android:padding">10dp</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:button">@null</item>
+    </style>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">game-platform</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+	<string name="hello">Hello World, PopwindowOnLeftActivity!</string> 
+	<string name="pop_left">弹出左侧菜单</string> 
+	<string name="open">打开</string> 
+	<string name="save">保存</string> 
+	<string name="close">关闭</string> 
+	
+    <string name="nav_desc">nav_desc</string>
+    <string name="launch_intro">这是用户信息的Fragment界面</string>
+    <string name="launch_click_me">我是一个按钮</string>
+    <string name="game_intro">这是放置游戏app的Fragment界面</string>
+    <string name="news_intro">这是游戏资讯的Fragment界面</string>
+    <string name="app_detail">《我叫MT》是一部由七彩映画工作室出品的原创3D网络动画，
+        被众多网友冠之以“国产动画新光芒”的动画剧集。该动画是以魔兽为核心的人气旺盛的同人网络动画，
+        其原型是暴雪公司著名的网络游戏《魔兽世界》。</string>
+    <string name="app_dowload">下载</string>
+    <string name="game_name">名字：</string>
+    <string name="game_version">版本：</string>
+    <string name="game_time">上架时间：</string>
+</resources>

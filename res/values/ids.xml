@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="ll_title" type="id"/>
+    <item name="vp_pager" type="id"/>
+    <item name="hs_scroll" type="id"/>
+    <item name="pager_title" type="id"/>
+   	<item name="tv_detail" type="id"/>
+   	<item name="im_detail" type="id"/>
+   	<item name="bt_dowload" type="id"/>
+   	<item name="tv_name" type="id"/>
+   	<item name="im_page1" type="id"/>
+   	<item name="im_page2" type="id"/>
+   	<item name="im_page3" type="id"/>
+   	<item name="pb_progress" type="id"/>
+   	<item name="vp_game" type="id"/>
+   	<item name="tv_game" type="id"/>
+   	<item name="tv_version" type="id"/>
+   	<item name="tv_time" type="id"/>
+    <item name="iv_app1" type="id"/>
+    <item name="iv_app2" type="id"/>
+    <item name="iv_app3" type="id"/>
+    <item name="iv_app4" type="id"/>
+    <item name="iv_app5" type="id"/>
+    <item name="iv_app6" type="id"/>
+    <item name="iv_app7" type="id"/>
+    <item name="iv_app8" type="id"/>
+    <item name="iv_app9" type="id"/>
+    <item name="iv_app10" type="id"/>
+    <item name="iv_app11" type="id"/>
+    <item name="iv_app12" type="id"/>
+    <item name="iv_app13" type="id"/>
+
+</resources>

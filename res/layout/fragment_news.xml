@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.example.gridlayout"
+    android:id="@+id/horizon"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:padding="5dp"
+    android:scrollbars="horizontal" >
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:rowCount="8" >
+
+        <!-- 设计4×2的表格 -->
+
+        <ImageView
+            android:id="@+id/newImage0"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="100px"
+            android:layout_marginRight="150px"
+            android:layout_marginTop="100px"
+            android:layout_row="1"
+            android:layout_rowSpan="4"
+            android:scaleType="center"
+            android:src="@drawable/news_cell0" />
+        <!-- 可以指定放置的位置 -->
+
+        <ImageView
+            android:id="@+id/newImage1"
+            android:layout_column="2"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="100px"
+            android:layout_row="1"
+            android:layout_rowSpan="2"
+            android:scaleType="center"
+            android:src="@drawable/news_cell1" />
+
+        <ImageView
+            android:id="@+id/newImage2"
+            android:layout_column="2"
+            android:layout_gravity="center_vertical"
+            android:layout_row="3"
+            android:layout_rowSpan="2"
+            android:scaleType="center"
+            android:src="@drawable/news_cell2" />
+
+        <ImageView
+            android:id="@+id/newImage3"
+            android:layout_column="3"
+            android:layout_marginTop="100px"
+            android:layout_row="1"
+            android:layout_rowSpan="2"
+            android:scaleType="center"
+            android:src="@drawable/news_cell3" />
+
+        <ImageView
+            android:id="@+id/newImage4"
+            android:layout_column="3"
+            android:layout_row="3"
+            android:layout_rowSpan="2"
+            android:scaleType="center"
+            android:src="@drawable/news_cell4" />
+
+        <ImageView
+            android:id="@+id/newImage5"
+            android:layout_column="4"
+            android:layout_marginTop="100px"
+            android:layout_row="1"
+            android:layout_rowSpan="2"
+            android:scaleType="center"
+            android:src="@drawable/news_cell5" />
+
+        <ImageView
+            android:id="@+id/newImage6"
+            android:layout_column="4"
+            android:layout_row="3"
+            android:layout_rowSpan="2"
+            android:scaleType="center"
+            android:src="@drawable/news_cell6" />
+
+        <ImageView
+            android:id="@+id/newImage7"
+            android:layout_column="5"
+            android:layout_marginRight="100px"
+            android:layout_marginTop="100px"
+            android:layout_row="1"
+            android:layout_rowSpan="2"
+            android:scaleType="center"
+            android:src="@drawable/news_cell7" />
+
+        <ImageView
+            android:id="@+id/newImage8"
+            android:layout_column="5"
+            android:layout_marginRight="100px"
+            android:layout_row="3"
+            android:layout_rowSpan="2"
+            android:scaleType="center"
+            android:src="@drawable/news_cell8" />
+    </GridLayout>
+
+</HorizontalScrollView>
